@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "engine",
+			"path": "xash3d/"
+		},
+		{
+			"name": "hlsdk",
+			"path": "hlsdk"
+		},
+		{
+			"name": "game",
+			"path": "hl"
+		},
+		{
+			"name": "workspace-files",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

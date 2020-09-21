@@ -1,0 +1,32 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Configure For x86_64",
+			"type": "shell",
+			"command": "./configure-amd64.sh"
+		},
+		{
+			"label": "Configure For x86",
+			"type": "shell",
+			"command": "./configure-x86.sh"
+		},
+		{
+			"label": "Build",
+			"type": "shell",
+			"command": "./build.sh"
+		},
+		{
+			"label": "Install",
+			"type": "shell",
+			"command": "./install.sh"
+		},
+		{
+			"label": "Run Game",
+			"type": "shell",
+			"command": "./hl/xash3d.sh"
+		}
+	]
+}
