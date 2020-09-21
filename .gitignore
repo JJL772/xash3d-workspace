@@ -1,5 +1,6 @@
 hlsdk-xash3d
 xash3d-fwgs
-xash3d
+xash3d/
 hlsdk
 hl
+!xash3d.code-workspace
